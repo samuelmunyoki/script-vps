@@ -35,5 +35,5 @@ case $opt in
 10) clear ; rm -rf udp-custom.sh && wget -q https://sc2.scvps.biz.id/rabah/udp-custom.sh &&  chmod +x udp-custom.sh && ./udp-custom.sh ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo -e "" ; echo "Anda salah tekan" ; sleep 1 ; menu-set ;;
+*) echo -e "" ; echo "Invalid choice!" ; sleep 1 ; menu-set ;;
 esac
