@@ -36,5 +36,5 @@ case $opt in
 8) clear ; trial ; exit ;;
 0) clear ; menu ; exit ;;
 x) exit ;;
-*) echo "Anda salah tekan " ; sleep 1 ; menu-ssh ;;
+*) echo "Invalid choice" ; sleep 1 ; menu-ssh ;;
 esac
